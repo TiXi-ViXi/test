@@ -5,12 +5,12 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Icon } from '@mui/material';
-
-
+import './Navbar.css'
+import { red } from '@mui/material/colors';
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" style={{ backgroundColor: '#442C2E' }}>
         <Toolbar>
             <Icon src = '/assets/logo.png'></Icon>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
